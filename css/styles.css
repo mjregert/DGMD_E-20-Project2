@@ -1,0 +1,59 @@
+html {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+/* Setting up global box-sizing: border-box; see https://css-tricks.com/box-sizing/ */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* end box-sizing section */
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#navContainer {
+    float: left;
+    color: white;
+}
+
+#nav {
+    overflow: hidden;
+    transition: width 200ms;
+}
+
+#button.expanded {
+    width: 100px;
+}
+
+#button {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    background-color: transparent;
+}
+
+main {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+    color: white;
+}

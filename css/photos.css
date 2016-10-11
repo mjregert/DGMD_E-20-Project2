@@ -1,0 +1,84 @@
+html {
+    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+
+#navContainer {
+    float: left;
+    color: white;
+}
+
+#nav {
+    overflow: hidden;
+    transition: width 200ms;
+}
+
+#button.expanded {
+    width: 100px;
+}
+
+#button {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    background-color: transparent;
+}
+
+header {
+    font-size: 3em;
+    margin: auto;
+    text-align: center;
+}
+
+
+main {
+    background: rgba(21, 20, 20, 0.4);
+    border-radius: 1rem;
+    line-height: 1.2;
+}
+
+main section {
+    padding: 1em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main section > p {
+    color: black;
+}
+
+main section h2, article h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.4em;
+}
+
+
+.wrapper {
+    overflow: auto;
+
+}
+
+.column {
+    width: 50%;
+}
+
+.leftcolumn {
+    float: left;
+    padding: 1em;
+    border-right: 1px solid #666; /* left side of a 2px divider */
+}
+
+.rightcolumn {
+    float: right;
+    padding-left: 1em;
+    border-left: 1px solid #666; /* right side of a 2px divider */
+}
