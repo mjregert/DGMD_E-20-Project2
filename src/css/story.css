@@ -1,0 +1,81 @@
+html {
+    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    color: #dddedd;
+    text-shadow: 2px 2px 4px #141414;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.4);
+/*  background: rgba(21, 20, 20, 0.1);*/
+    border-radius: 1rem;
+
+    padding: 1em;
+
+    /* Three column layout */
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+
+    -webkit-column-rule: 1px solid #141414;
+    -moz-column-rule: 1px solid #141414;
+    column-rule: 1px solid #141414;
+}
+
+
+article {
+    display: inline-block;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+article p {
+    line-height: 1.2;
+    color: #241F1A;
+    overflow: auto;
+}
+
+article h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 0.4em;
+    color: #5C4E43;
+    text-shadow: 1px 1px 1px #141414;
+}
+
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+img {
+  border-radius: 100%; // full circular image
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
