@@ -1,5 +1,5 @@
 html {
-    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background: url("../images/old-1130730_1920.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -22,38 +22,23 @@ header h1 {
     text-shadow: 2px 2px 4px #141414;
 }
 
+header nav {
+
+}
+
 main {
-  background: rgba(255, 255, 255, 0.4);
-/*  background: rgba(21, 20, 20, 0.1);*/
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 1rem;
-
     padding: 1em;
-
-    /* Three column layout */
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-
-    -webkit-column-gap: 40px;
-    -moz-column-gap: 40px;
-    column-gap: 40px;
-
-    -webkit-column-rule: 1px solid #141414;
-    -moz-column-rule: 1px solid #141414;
-    column-rule: 1px solid #141414;
 }
 
-
-article {
-    display: inline-block;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
+section {
+    overflow: auto;
 }
+
 article p {
     line-height: 1.2;
     color: #241F1A;
-    overflow: auto;
 }
 
 article h2 {
@@ -65,17 +50,18 @@ article h2 {
     text-shadow: 1px 1px 1px #141414;
 }
 
-
-.left {
+.floatleft {
   float: left;
 }
-.right {
-  float: right;
+
+.floatright {
+    float: right;
 }
 
-img {
-  border-radius: 100%; // full circular image
-  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
--webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+.polaroid {
+    border: 2px dotted green;
+    margin: 2em;
+    width: 40%;
+    padding: 15px 15px 50px 15px;
+    background-color: white;
 }

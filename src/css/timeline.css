@@ -1,0 +1,101 @@
+html {
+    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    /*max-width: 1200px;*/
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    color: #dddedd;
+    text-shadow: 2px 2px 4px #141414;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 2em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.3em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+main {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+    padding: 1em;
+}
+
+main section {
+    padding-top: 2em;
+}
+
+article p {
+    padding-bottom: 2em;
+}
+
+.threecolumns {
+    /* Three column layout */
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+
+    -webkit-column-rule: 1px solid #141414;
+    -moz-column-rule: 1px solid #141414;
+    column-rule: 1px solid #141414;
+}
+
+.twocolumns {
+    /* Two column layout */
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+
+    -webkit-column-rule: 1px solid #141414;
+    -moz-column-rule: 1px solid #141414;
+    column-rule: 1px solid #141414;
+}

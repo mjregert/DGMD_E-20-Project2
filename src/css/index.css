@@ -1,0 +1,49 @@
+html {
+    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    color: #dddedd;
+    text-shadow: 2px 2px 4px #141414;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 1.3em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+main {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 1rem;
+    padding: 1em;
+}
