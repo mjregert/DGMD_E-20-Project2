@@ -22,10 +22,6 @@ header h1 {
     text-shadow: 2px 2px 4px #141414;
 }
 
-header nav {
-
-}
-
 main {
     background: rgba(255, 255, 255, 0.4);
     border-radius: 1rem;
@@ -61,7 +57,7 @@ article h2 {
 .polaroid {
     border: 2px dotted green;
     margin: 2em;
-    width: 40%;
+    width: 30%;
     padding: 15px 15px 50px 15px;
     background-color: white;
 }
