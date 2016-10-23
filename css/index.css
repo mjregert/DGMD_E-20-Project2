@@ -15,7 +15,7 @@ main h3 {
     padding-bottom: .5em;
 }
 
-main section {
+main div {
     background: rgba(30, 20, 10, 0.6);
     border-radius: 1rem;
     padding: 2em;
