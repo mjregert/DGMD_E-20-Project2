@@ -1,49 +1,129 @@
 html {
-    background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
+    background: url("../images/knowledge-1052011.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
-body {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-header {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-header h1 {
-    font-size: 3em;
+main h2 {
+    font-size: 1.5em;
+    padding: 0 2em;
     font-weight: bold;
-    margin: auto;
-    text-align: center;
-    color: #dddedd;
-    text-shadow: 2px 2px 4px #141414;
 }
 
-nav ul {
-    list-style: none;
+main h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: .5em;
 }
 
-nav li {
-    display: inline-block;
-    padding-right: 1.3em;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    color: red;
-}
-
-
-main {
-    background: rgba(255, 255, 255, 0.4);
+main section {
+    background: rgba(30, 20, 10, 0.6);
     border-radius: 1rem;
-    padding: 1em;
+    padding: 2em;
+}
+
+#container {
+    display: inline-block;
+    width: 600px;
+}
+
+#container img {
+    position: relative;
+}
+
+
+#container img:nth-child(1) {
+    top: -30px;
+    left: 0px;
+}
+
+#container img:nth-child(2) {
+    top: 0px;
+    left: 20px;
+}
+
+#container img:nth-child(3) {
+    top: 0px;
+    left: 50px;
+}
+
+#container img:nth-child(4) {
+    top: -30px;
+    left: 80px;
+}
+
+article p {
+    padding-bottom: 1em;
+    line-height: 1.3;
+    font-size: 1.2em;
+}
+article p:last-child {
+    padding-bottom: 2em;
+}
+
+article:last-child p:last-child {
+    padding-bottom: 1em;
+}
+
+.floatleft {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.floatright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.photograph {
+    padding: 15px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    width: 40%;
+}
+
+.portrait {
+    width: 200px;
+}
+
+.landscape {
+    width: 300px;
+}
+
+.map {
+    border: 1px solid #1C1109;
+}
+
+table {
+    text-align: left;
+    color: #1C1109;
+    font-family: "Verdana", "Geneva", "sans-serif";
+    font-size: .7em;
+
+    -webkit-box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 2px 2px rgba(0,0,0,0.75);
+}
+
+th, td {
+    padding: .5em;
+    border: 1px solid #1C1109;
+}
+
+tr:nth-child(even) {
+    background-color: #DBD0C9;
+}
+
+tr:nth-child(odd) {
+    background-color: #B9A99B;
+}
+
+table tr:first-child {
+    background-color: #94806D;
+}
+
+td>h2 {
+ text-align: center;
+ font-weight: bold;
 }

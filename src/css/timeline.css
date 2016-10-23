@@ -3,69 +3,50 @@ html {
     background-size: cover;
 }
 
-body {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 2em;
-}
-
-header {
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-    color: #dddedd;
-    text-shadow: 2px 2px 4px #141414;
-}
-
-h2 {
+main h2 {
     font-size: 1.5em;
-    font-style: italic;
-    padding: 0 2em;
+    margin-bottom: 1em;
+    padding: 1em;
+    background: rgba(185, 169, 155, 0.6);
+    border-radius: 1rem;
+
 }
 
-h3 {
-    font-size: 1.2em;
+main h3 {
+    font-size: 1.5em;
     font-weight: bold;
-    padding-bottom: .5em;
+    padding: .5em 0;
 }
 
-nav ul {
-    list-style: none;
+.photograph {
+    padding: 15px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
 }
 
-nav li {
-    display: inline-block;
-    padding-right: 1.3em;
+.portrait {
+    height: 200px;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-
+.floatright {
+    float: right;
+    margin: 0 0 1em 1em;
 }
 
-nav a:hover {
-    color: red;
-}
-
-
-main {
-    background: rgba(255, 255, 255, 0.4);
+main section {
+    background: rgba(30, 20, 10, 0.6);
     border-radius: 1rem;
     padding: 1em;
 }
 
-main section {
-    padding-top: 2em;
-}
-
 article p {
+    line-height: 1.3;
+    font-size: 1.2em;
+    overflow: auto;
+}
+article p:last-child {
     padding-bottom: 2em;
 }
 
@@ -79,13 +60,13 @@ article p {
     -moz-column-gap: 40px;
     column-gap: 40px;
 
-    -webkit-column-rule: 1px solid #141414;
-    -moz-column-rule: 1px solid #141414;
-    column-rule: 1px solid #141414;
+    -webkit-column-rule: 1px solid #DBD0C9;
+    -moz-column-rule: 1px solid #DBD0C9;
+    column-rule: 1px solid #DBD0C9;
 }
 
 .twocolumns {
-    /* Two column layout */
+    /* Three column layout */
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -94,7 +75,7 @@ article p {
     -moz-column-gap: 40px;
     column-gap: 40px;
 
-    -webkit-column-rule: 1px solid #141414;
-    -moz-column-rule: 1px solid #141414;
-    column-rule: 1px solid #141414;
+    -webkit-column-rule: 1px solid #DBD0C9;
+    -moz-column-rule: 1px solid #DBD0C9;
+    column-rule: 1px solid #DBD0C9;
 }

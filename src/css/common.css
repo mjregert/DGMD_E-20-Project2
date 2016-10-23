@@ -1,100 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 html {
-    background: url("../images/old-1130730_1920.jpg") no-repeat center center fixed;
-    background-size: cover;
+    box-sizing: border-box;
+    color: white;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
-    font-family: "Courgette", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    padding-bottom: 2em;
+    font-family: 'Handlee', cursive, serif;
+    padding: 2em 1em;
 }
 
+/*------------------------------------
+    HEADER STYLING
+-------------------------------------*/
 header {
-  padding-top: 1em;
-  padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 header h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     margin: auto;
     text-align: center;
-    color: #dddedd;
-    text-shadow: 2px 2px 4px #141414;
+    color: #E1D7D1;
+    text-shadow: 3px 3px 3px #1C1109;
 }
 
-h2 {
-    font-size: 1.5em;
-    font-style: italic;
-    padding: 0 2em;
+/*------------------------------------
+    NAVIGATION STYLING
+-------------------------------------*/
+nav {
+    font-size: 1.4em;
+    width: 180px;
+    margin-right: 2em;
+    float: left;
 }
 
-h3 {
-    font-size: 1.5em;
-    font-weight: bold;
+nav h2 {
+    padding-bottom: 1em;
+    color: #E1D7D1;
+    text-shadow: 2px 2px 4px #1A1007;
+}
+
+nav>ul {
+    list-style: none;
+}
+
+nav>ul>li {
     padding-bottom: .5em;
 }
 
-nav ul {
-    list-style: none;
-    padding-bottom: 1em;
-    padding-left: 1em;
-}
-
-nav li {
-    display: inline-block;
-    padding-right: 1.3em;
+.submenu {
+    padding-left: 3em;
 }
 
 nav a {
-    color: white;
     text-decoration: none;
-
+    color: #E1D7D1;
+    text-shadow: 2px 2px 4px #1A1007;
 }
 
 nav a:hover {
-    color: red;
+    color: #AF9E90;
+    text-shadow: 2px 2px 4px #1A1007;
 }
 
-
+/*------------------------------------
+    MAIN CONTENT STYLING
+-------------------------------------*/
 main {
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 1rem;
-    padding: 1em;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 main section {
-    padding-top: 2em;
+    margin: 0 auto;
     overflow: auto;
-}
-
-article p {
-    padding-bottom: 2em;
-    line-height: 1.2;
-    font-size: 1.1em;
-}
-
-.floatleft {
-  float: left;
-  margin: 0 1em 1em 0;
-}
-
-.floatright {
-    float: right;
-    margin: 0 0 1em 1em;
-}
-
-.polaroid {
-    width: 40%;
-    padding: 15px 15px 50px 15px;
-    background-color: white;
-    box-shadow: 10px 10px 5px #333333;
-}
-}
-
-#map {
-    width: 40%;
-    padding: 15px 15px 50px 15px;
+    padding: 1em;
 }

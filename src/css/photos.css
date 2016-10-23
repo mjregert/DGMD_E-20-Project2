@@ -1,137 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Quintessential');
-
+/*
+ THIS STYLESHEET ADDS STYLING SPECIFIC FOR THE PHOTOS PAGES.
+ */
 html {
     background: url("../images/old-1130730_1920.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
-body {
-    font-family: "Quintessential", "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    padding: 2em 1em;
+div {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
 }
 
-header {
-    padding-bottom: 2em;
-}
-header h1 {
-    font-size: 3em;
-    font-weight: bold;
-    margin: auto;
-    text-align: center;
-    color: #E1D7D1;
-    text-shadow: 2px 2px 4px #1A1007;
+.photograph {
+    padding: 15px;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
 }
 
-nav {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 1.2em;
-    width: 180px;
-    margin-right: 2em;
-    float: left;
+.portrait {
+    height: 400px;
+    position: relative;
+    top: 50px;
+    left: 90px;
 }
 
-nav h2 {
-    padding-bottom: 1em;
-    color: #E1D7D1;
-    text-shadow: 2px 2px 4px #1A1007;
-}
-
-nav>ul {
-    list-style: none;
-}
-
-nav>ul>li {
-    padding-bottom: .5em;
-}
-
-.submenu {
-    padding-left: 3em;
-}
-
-nav a {
-    text-decoration: none;
-    color: #E1D7D1;
-    text-shadow: 2px 2px 4px #1A1007;
-}
-
-nav a:hover {
-    color: #AF9E90;
-    text-shadow: 2px 2px 4px #1A1007;
-}
-
-main {
-    width: 95%;
-    margin: 0 auto;
-}
-
-main h2 {
-    font-size: 1.5em;
-    font-style: italic;
-    padding: 0 2em;
-}
-
-main h3 {
-    font-size: 1.5em;
-    font-weight: bold;
-    padding-bottom: .5em;
-    color: #1A1007;
-    text-shadow: 1px 1px 2px #E1D7D1;
-}
-
-
-
-main section {
-    margin: 0 auto;
-    overflow: auto;
-}
-
-main section div {
-    padding: 1rem;
-}
-
-article p {
-    padding-bottom: 2em;
-    line-height: 1.3;
-    font-size: 1.1em;
-}
-
-.floatleft {
-  float: left;
-  margin: 0 1em 1em 0;
-}
-
-.floatright {
-    float: right;
-    margin: 0 1em 1em 1em;
-}
-
-.polaroid {
-    width: 45%;
-    margin: 2em;
-    padding: 15px 15px 60px 15px;
-    background-color: #E1D7D1;
-
-    -webkit-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 10px 4px rgba(0,0,0,0.75);
-
-    border-radius: .2rem;
-}
-
-.polaroid:nth-child(even) {
-    -webkit-transform: rotate(3deg);
-    -moz-transform: rotate(3deg);
-}
-
-
-.polaroid:nth-child(odd) {
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-}
-
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 200px;
+.landscape {
+    width: 400px;
+    position: relative;
+    left: 25px;
 }
