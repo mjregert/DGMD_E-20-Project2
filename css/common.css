@@ -25,7 +25,7 @@ header h1 {
     font-weight: bold;
     margin: auto;
     text-align: center;
-    color: #E1D7D1;
+    color: white;
     text-shadow: 3px 3px 3px #1C1109;
 }
 
@@ -33,7 +33,7 @@ header h1 {
     NAVIGATION STYLING
 -------------------------------------*/
 nav {
-    font-size: 1.4em;
+    font-size: 1.3em;
     width: 180px;
     margin-right: 2em;
     float: left;
@@ -45,8 +45,8 @@ nav ul {
 
 nav ul li {
     text-decoration: none;
-    color: #DBD0C9;
-    text-shadow: 2px 2px 4px #1A1007;
+    color: white;
+    text-shadow: 3px 3px 3px #1C1109;
     padding-bottom: .5em;
 }
 
@@ -56,14 +56,17 @@ nav ul li {
 
 nav a {
     text-decoration: inherit;
-    color: #DBD0C9;
+    color: white;
+    text-shadow: 3px 3px 3px #1C1109;
+    -webkit-transition-property: font-size; /* Safari */
+    transition-property: font-size;
 }
 
 nav a:hover {
     text-decoration: inherit;
-    color: #1A1007;
-    text-shadow: 1px 1px 1px #DBD0C9;
-    font-weight: bold;
+    font-size: 1.35em;
+/*    color: #94806D;
+    text-shadow: 3px 3px 3px #1C1109;*/
 }
 
 /*------------------------------------
