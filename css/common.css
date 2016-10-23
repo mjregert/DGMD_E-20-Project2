@@ -39,33 +39,31 @@ nav {
     float: left;
 }
 
-nav h2 {
-    padding-bottom: 1em;
-    color: #E1D7D1;
-    text-shadow: 2px 2px 4px #1A1007;
-}
-
-nav>ul {
+nav ul {
     list-style: none;
 }
 
-nav>ul>li {
+nav ul li {
+    text-decoration: none;
+    color: #DBD0C9;
+    text-shadow: 2px 2px 4px #1A1007;
     padding-bottom: .5em;
 }
 
 .submenu {
-    padding-left: 3em;
+    padding-left: 2em;
 }
 
 nav a {
-    text-decoration: none;
-    color: #E1D7D1;
-    text-shadow: 2px 2px 4px #1A1007;
+    text-decoration: inherit;
+    color: #DBD0C9;
 }
 
 nav a:hover {
-    color: #AF9E90;
-    text-shadow: 2px 2px 4px #1A1007;
+    text-decoration: inherit;
+    color: #1A1007;
+    text-shadow: 1px 1px 1px #DBD0C9;
+    font-weight: bold;
 }
 
 /*------------------------------------
