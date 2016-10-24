@@ -1,3 +1,6 @@
+/*
+ THIS STYLESHEET ADDS STYLING SPECIFIC FOR THE TIMELINE PAGES.
+ */
 html {
     background: url("../images/old-1130745_1920.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -16,23 +19,6 @@ main h3 {
     font-size: 1.5em;
     font-weight: bold;
     padding: .5em 0;
-}
-
-.photograph {
-    padding: 15px;
-    background-color: white;
-    -webkit-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
-}
-
-.portrait {
-    height: 200px;
-}
-
-.floatright {
-    float: right;
-    margin: 0 0 1em 1em;
 }
 
 main section {

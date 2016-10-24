@@ -1,9 +1,12 @@
+/*
+ THIS STYLESHEET IS COMMON ACROSS ALL PAGES.
+ */
 @import url('https://fonts.googleapis.com/css?family=Handlee');
 
 html {
     box-sizing: border-box;
     color: white;
-    background-color: #6A5341;
+    background-color: #6A5341; /* SETTING A COLOR THAT IS REPRESENTATIVE OF THE BACKGROUND IMAGE HERE FOR CONTRAST CHECKING */ 
 }
 
 *, *::before, *::after {
